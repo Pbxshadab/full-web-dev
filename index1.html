@@ -5,25 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <h1 style="background-color: red;">heading</h1>
-    <h2>heading</h2>
-    <h3>heading</h3>
-    <h4>heading</h4>
-    <h5>heading</h5>
-    <h6>heading</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, adipisci dicta? Dolorum cupiditate vero harum porro pariatur suscipit dignissimos quos atque veritatis modi. Distinctio suscipit veritatis voluptate rerum quas animi!</p>
+    <form autocomplete="off">
+        <fieldset style="width: 300px; margin: auto;">
+            <legend style="margin: auto;">Registration Form</legend>
+            <label>Name</label>
+            <input type="text" required placeholder="Enter your name" name="username" minlength="4" maxlength="8"/><br /><br />
 
-    <img src="./zomato.jpg" alt="image not found" width="300px" height="300px"/><br/>
+            <label>Mobile</label>
+            <input type="number" /><br /><br />
 
-    <select>
-        <option selected disabled>Select</option>
-        <option>Delhi</option>
-        <option>Mumbai</option>
-        <option>Chennai</option>
-    </select>
+            <label>Address1</label>
+            <input type="text" /><br/><br/>
+            <label>Address2</label>
+            <input type="text" /><br/><br/>
+            <label>Address3</label>
+            <input type="text" /><br/><br/>
+
+            <label>DOB</label>
+            <input type="date" min="2023-06-01"/><br/><br/>
+
+            <input type="checkbox"/>
+            <label>10th:</label>
+
+            <input type="checkbox"/>
+            <label>12th:</label>
+
+            <input type="checkbox"/>
+            <label>Graduation:</label><br/><br/>
+
+            <input type="radio" name="gender"/>
+            <label>Male</label>
+
+            <input type="radio" name="gender"/>
+            <label>Female</label><br/><br/>
+
+            <label>Email:</label>
+            <input type="email"/><br/><br/>
+
+            <label>Password</label>
+            <input type="password"/><br/><br/>
+            
+            <input type="reset"/>
+            <input type="submit"/>
+        </fieldset>
+    </form>
 </body>
 
 </html>

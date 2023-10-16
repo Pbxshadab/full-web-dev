@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 01</title>
+</head>
+<body>
+    <h1>complex form </h1>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="email">Email id</label>
+            <input type="text" id="email" required>
+            <label for="phone">Phone No</label>
+            <input type="number" id="phone" required>
+            <br>
+            <br>
+            <label for="date of bith">Date Of Birth</label>
+            <input type="date" id="date of bith" required>
+            <br>
+            <br>
+            <span>Gender:</span>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female">
+            <br><br>
+            <label for="country">country</label>
+            <select name="country" id="country">
+            <option value="india">india</option>
+            <option value="nepal">nepal</option>
+            <option value="usa">usa</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="street">Street</label>
+            <input type="text" id="street">
+            <label for="city">City</label>
+            <input type="text" id="city">
+            <label for="state">State</label>
+            <input type="text" id="state">
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip">
+        </fieldset>
+        <br>
+       
+        <fieldset>
+            <legend>Other information</legend>
+            <label for="textarea">comment</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+            <label for="term">i agree term and condition</label>
+            <input type="checkbox" id="term">
+        </fieldset>
+        <input type="submit" id="submit">
+
+    </form>
+</body>
+</html>
